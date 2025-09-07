@@ -112,7 +112,6 @@ const ScrollBar = () => {
         }}
       />
 
-      {/* Running woman */}
       <div
         className="absolute"
         style={{

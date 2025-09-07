@@ -1,28 +1,26 @@
-import { motion } from "framer-motion";
+import { FlipWords } from "@/components/ui/flip-words";
+import { Button } from "@/components/ui/moving-border";
 
-const Final = () => (
+const Final = () => {
+   const words = ["Health","Self", "World", "Nature"];
+   return ( 
   <section
     id="register"
     className="min-h-screen bg-gradient-to-r from-yellow-100 to-orange-100 flex flex-col items-center justify-center text-center px-6"
   >
-    <motion.h2
-      initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8 }}
-      className="text-3xl md:text-4xl font-bold text-red-600 mb-6"
-    >
-      “Run for the body, run for the soul. Every step is a prayer.”
-    </motion.h2>
-    <motion.a
-      href="/register"
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ delay: 0.4, duration: 0.6 }}
-      className="bg-red-500 text-white px-8 py-3 rounded-full shadow-md hover:bg-red-600 transition"
-    >
-      Get Started
-    </motion.a>
+    <div className="text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
+        Join the marathon for
+        <FlipWords words={words} duration={1000} /> <br />
+    </div>
+    <Button
+        borderRadius="1.75rem"
+        borderClassName="h-24 w-24 bg-[radial-gradient(circle,#ffffff_0%,#facc15_30%,#fb923c_60%,#ef4444_90%)] opacity-90"
+        containerClassName="h-16 w-44 bg-transparent p-[2px] rounded-2xl"
+        className="bg-yellow-500 text-black-400 font-semibold hover:text-[20px] transition-size duration-300 "
+      >
+        Register Now
+      </Button>
   </section>
 );
-
+}
 export default Final;

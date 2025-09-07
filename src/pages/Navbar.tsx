@@ -17,7 +17,7 @@ const Navbar = () => {
     const handleMouseMove = (e: MouseEvent) => {
       if (e.clientY <= 50) {
         clearTimeout(hoverTimeout);
-        hoverTimeout = setTimeout(() => setVisible(true), 200);
+        hoverTimeout = setTimeout(() => setVisible(true), 10);
       }
     };
 
