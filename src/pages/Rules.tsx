@@ -1,9 +1,9 @@
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 const projects = [
   {
-    title: "Stripe",
+    title: "Eligibility",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
+      "Participants must be 18+ years old.",
     link: "https://stripe.com",
   },
   {

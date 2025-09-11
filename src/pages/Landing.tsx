@@ -1,0 +1,30 @@
+import { motion, useScroll, useTransform } from "framer-motion";
+
+export default function HeroZoom() {
+  // Track scroll progress (0 to 1)
+  const { scrollYProgress } = useScroll();
+
+  // Zoom effect: scale text from 1x to 20x
+  const scale = useTransform(scrollYProgress, [0, 0.1], [1, 20]);
+
+  // Fade out overlay after zoom
+  const opacity = useTransform(scrollYProgress, [0.08, 0.15], [1, 0]);
+
+  return (
+    <motion.div
+      style={{ opacity }}
+      className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black pointer-events-none"
+    >
+      <motion.h1
+        style={{ scale ,transformOrigin: '57% center'}}
+        className="text-[20vw] font-extrabold leading-none text-amber-100 "
+      >
+        RUN
+      </motion.h1>
+      <motion.h1
+        className="text-lg font-semibold text-amber-100 mt-6"      >
+        scrolls down to explore
+      </motion.h1>
+    </motion.div>
+  );
+}

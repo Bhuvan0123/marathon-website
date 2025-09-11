@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const AboutMarathon = () => (
   <section
     id="about"
-    className="min-h-screen flex items-center bg-yellow-50 px-8 md:px-20"
+    className="min-h-screen flex items-center bg-yellow-50 px-8 md:px-20 mb-10"
   >
     <motion.div
       className="grid md:grid-cols-2 gap-12 items-center"
