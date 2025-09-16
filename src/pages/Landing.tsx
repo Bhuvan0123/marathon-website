@@ -1,10 +1,10 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-
+import { FaArrowDown } from "react-icons/fa";
 export default function HeroZoom() {
   // Track scroll progress (0 to 1)
   const { scrollYProgress } = useScroll();
 
-  // Zoom effect: scale text from 1x to 20x
+  // Zoom effect: scale text from 1x to 50x
   const scale = useTransform(scrollYProgress, [0, 0.1], [1, 20]);
 
   // Fade out overlay after zoom
@@ -22,8 +22,9 @@ export default function HeroZoom() {
         RUN
       </motion.h1>
       <motion.h1
-        className="text-lg font-semibold text-amber-100 mt-6"      >
-        scrolls down to explore
+        className="flex items-center gap-2 text-s font-semibold text-amber-100 mt-6"
+      >
+        scroll down to explore <span><FaArrowDown /></span>
       </motion.h1>
     </motion.div>
   );

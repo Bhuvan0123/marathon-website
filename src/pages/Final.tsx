@@ -1,8 +1,10 @@
+import CountdownWithProgress from "@/components/ui/count-down";
 import { FlipWords } from "@/components/ui/flip-words";
-import { Button } from "@/components/ui/moving-border";
+import { useNavigate } from "react-router-dom";
 
 const Final = () => {
    const words = ["Health","Self", "World", "Nature"];
+    const navigate = useNavigate();
    return ( 
   <section
     id="register"
@@ -12,14 +14,12 @@ const Final = () => {
         Join the marathon for
         <FlipWords words={words} duration={1000} /> <br />
     </div>
-    <Button
-        borderRadius="1.75rem"
-        borderClassName="h-24 w-24 bg-[radial-gradient(circle,#ffffff_0%,#facc15_30%,#fb923c_60%,#ef4444_90%)] opacity-90"
-        containerClassName="h-16 w-44 bg-transparent p-[2px] rounded-2xl"
-        className="bg-yellow-500 text-black-400 font-semibold hover:text-[20px] transition-size duration-300 "
-      >
-        Register Now
-      </Button>
+    <CountdownWithProgress />
+    <button 
+     className="px-6 py-3 rounded-lg bg-gradient-to-r from-orange-500  to-red-500 text-white font-semibold shadow-lg transition-transform duration-300 hover:scale-125 hover:shadow-xl focus:outline-none"
+    onClick={() => navigate("/register")}>
+      Go to Register
+    </button>
   </section>
 );
 }

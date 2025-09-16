@@ -45,7 +45,7 @@ const Navbar = () => {
               <a href="#about">About</a>
               <a href="#member">Member</a>
               <a href="#timeline">Timeline</a>
-              <a href="#rules">Rules</a>
+              <a href="#category">Categories</a>
               <a href="#register">Register</a>
             </div>
           </div>

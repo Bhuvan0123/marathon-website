@@ -28,7 +28,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     offset: ["start 10%", "end 50%"],
   });
 
-  const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
+  const heightTransform = useTransform(scrollYProgress, [0,0.1], [0, 500]);
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
@@ -41,10 +41,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         data.map((item, index) => (
           <div
             key={index}
-            className="flex justify-start pt-14 md:pt-24 md:gap-10"
+            className="flex justify-start pt-15 md:gap-0.05"
           >
           <div className="sticky flex flex-col md:flex-row z-40 items-center top-32 self-start max-w-xs lg:max-w-sm md:w-full">
-            <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
+            <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full flex items-center justify-center">
               <div className="h-5 w-5 rounded-full bg-gradient-to-br from-yellow-400 via-orange-500 to-red-500 border border-red-600 shadow-md" />
             </div>
             <h3 className="hidden md:block text-2xl font-bold text-orange-600 md:pl-20">

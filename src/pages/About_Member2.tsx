@@ -9,7 +9,7 @@ const MemberSection = () => {
     <section className="relative min-h-screen flex items-center justify-center px-8 md:px-20 mb-10 ">
       {/* Background animated container (from right to left) */}
       <motion.div
-        className="absolute top-0 right-0 h-full w-7/8 bg-orange-600 rounded-l-full"
+        className="absolute top-0 right-0 h-full w-[100%] bg-orange-600 rounded-l-full"
         initial={{ x: "100%" }}
         whileInView={{ x: 50 }}
         transition={{ duration: 1, ease: "easeOut" }}
