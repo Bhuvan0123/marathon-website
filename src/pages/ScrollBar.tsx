@@ -100,7 +100,7 @@ const ScrollBar = () => {
   return (
     <div
       ref={containerRef}
-      className="fixed bottom-10 left-0 w-full h-24 flex items-center"
+      className="fixed bottom-10 left-0 w-full h-24 flex items-center z-40"
     >
       {/* Pathway line */}
       <div

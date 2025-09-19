@@ -63,9 +63,48 @@ export default function MarathonRegisterForm() {
     },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    alert("✅ Registration Successful!\n" + JSON.stringify(values, null, 2));
-  }
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    try {
+      console.log(values);
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbxp8zfrBd44AA5lmV6OOh_UFbiFoRHvEgcoI0su-o14ljwjlwbf1yydZvxHshKqSHxd/exec", // <-- Replace with your Apps Script Web App URL
+        {
+          method: "POST",
+          mode: "no-cors", // Important for Apps Script
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            FullName: values.fullName,
+            Email: values.email,
+            Phone: values.phone,
+            DOB: values.dob,
+            Gender: values.gender,
+            Nationality: values.nationality,
+            Address: values.address,
+            Pincode: values.pincode,
+            Category: values.category,
+            Tshirt: values.tshirt,
+            EmergencyContactName: values.emergencyName,
+            EmergencyContactRelation: values.emergencyRelation,
+            EmergencyContactNumber: values.emergencyPhone,
+            AadharNumber: values.aadhar,
+            BloodGroup: values.blood,
+            Experience: values.experience,
+          }),
+        }
+        );
+
+        // Since Apps Script with `no-cors` won’t return JSON reliably
+        alert("✅ Registration Successful! We've received your details.");
+        form.reset(); // reset the form after submission
+      } catch (error) {
+        console.error("❌ Error submitting form:", error);
+        alert("⚠️ Something went wrong. Please try again.");
+      }
+    }
+
+
 
   return (
     <div className="max-w-4xl mx-auto p-6">

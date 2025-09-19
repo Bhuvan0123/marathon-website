@@ -31,7 +31,7 @@
     "lottie-react": "^2.4.1",
     "lucide-react": "^0.542.0",
     "mini-svg-data-uri": "^1.4.4",
-    "motion": "^12.23.12",
+    "motion": "^12.23.15",
     "react": "^19.1.1",
     "react-day-picker": "^9.10.0",
     "react-dom": "^19.1.1",

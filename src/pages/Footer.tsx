@@ -37,7 +37,7 @@ function Footer(){
       </div>
 
       {/* Bottom strip full width */}
-      <div className="w-full text-center border-t border-black mt-6 pt-4">
+      <div className="w-full text-center border-t border-black mt-10 pt-4">
         <p>
           &copy; {new Date().getFullYear()} ALAMA ABACUS. All rights reserved.
         </p>
