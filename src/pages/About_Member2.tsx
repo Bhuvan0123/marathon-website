@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import photo from "../assets/members/suresh_babu.jfif"
+import photo from "../assets/members/director.jpg"
 
 
 const MemberSection = () => {
@@ -24,17 +24,15 @@ const MemberSection = () => {
           <img
             src={photo}
             alt="Member"
-            className="h-40 w-40 sm:h-52 sm:w-52 md:h-60 md:w-60 lg:h-68 lg:w-68 rounded-full object-cover border-4 border-white shadow-lg"
+            className="h-40 w-40 sm:h-52 sm:w-52 md:h-60 md:w-60 lg:h-78 lg:w-58 rounded-full object-cover border-4 border-white shadow-lg"
           />
         </div>
 
         {/* Text */}
         <div className="w-full md:w-2/3 text-center md:text-left mt-6 md:mt-0">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-2">Dr. M. Suresh Babu</h2>
-          <h3 className="text-lg sm:text-xl text-yellow-200 mb-4">Director</h3>
-          <p className="text-base sm:text-lg leading-relaxed text-justify md:text-left">
-            Dr. M. Suresh Babu has devoted over 30 years to dedicated service, emulating the exemplary path of our beloved Sri Sakthi Amma. His leadership and contributions have made a significant and lasting impact on education, social welfare, and spiritual well-being.
-            <br /><br />
+          <h2 className="text-2xl sm:text-5xl font-bold mb-2">Dr. M. Suresh Babu</h2>
+          <h3 className="text-lg sm:text-3xl text-yellow-200 mb-4">Director & Trustee</h3>
+          <p className="text-base sm:text-2xl leading-relaxed text-justify md:text-left">
             Dr. M. Suresh Babu is the Trustee and Director of Sripuram, Sri Narayani Peedam, Sri Sakthi Amma Educational Trust (Sri Narayani Schools), Sri Sakthi Amma Tribal Welfare Trust, and Sri Sakthi Amma Ancient and Holistic Health Care Trust. In celebration of his birthday on November 21, 2024, a grand marathon is being organized to honor his dedication to health, well-being, and community spirit.
           </p>
         </div>

@@ -74,7 +74,7 @@ const CountdownWithProgress = () => {
     seconds: '00',
   })
 
-  const launchDate = new Date('2025-11-17T23:59:59')
+  const launchDate = new Date('2025-12-21T23:59:59')
 
   useEffect(() => {
     const intervalID = setInterval(() => {

@@ -104,7 +104,7 @@ const ScrollBar = () => {
     >
       {/* Pathway line */}
       <div
-        className="absolute bottom-2 left-0 w-full h-1 bg-orange-300 border-amber-200 border-10 rounded-full"
+        className="absolute bottom-2 left-0 w-full h-1 bg-orange-300 border-amber-400 border-10 rounded-full"
         style={{
           marginLeft: sidePadding,
           marginRight: sidePadding,

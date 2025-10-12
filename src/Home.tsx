@@ -1,7 +1,6 @@
 import './App.css'
 import Final from './pages/Final'
 import ScrollBar from './pages/ScrollBar'
-import TimelinePage from './pages/TimelinePage'
 import Sponsers from './pages/Sponsers'
 import Navbar from './pages/Navbar'
 import Footer from './pages/Footer'
@@ -35,7 +34,6 @@ function Home() {
           
           <AboutMember1/>
           <AboutMember2/>
-          <TimelinePage/>
           <Categories/>
           <Final/>
           <Sponsers/> 

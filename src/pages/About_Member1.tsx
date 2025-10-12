@@ -1,5 +1,5 @@
 "use client";
-import photo from "../assets/sri_sakthi_amma.avif"
+import photo from "../assets/members/Amma jayanthi.png"
 
 import { motion } from "framer-motion";
 
@@ -25,18 +25,18 @@ const AboutMember1 = () => {
       >
         {/* Text */}
   <div className="w-full md:w-2/3 text-center md:text-left mt-6 md:mt-0">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-2">Sri Sakhti Amma</h2>
-          <h3 className="text-lg sm:text-xl text-yellow-200 mb-4">Chief Organizer</h3>
-          <p className="text-base sm:text-lg leading-relaxed text-justify md:text-left">
+          <h2 className="text-2xl sm:text-5xl font-bold mb-2">Sri Sakhti Amma</h2>
+          <h3 className="text-lg sm:text-2xl text-yellow-200 mb-4">Chief Organizer</h3>
+          <p className="text-base sm:text-2xl leading-relaxed text-justify md:text-left">
             Sri Sakthi Amma is the first and only known avatara (incarnation) of the Goddess Narayani, a divine feminine energy, who declared her divinity in 1992 and established the Sri Narayani Peedam in India to serve humanity and promote peace. Followers believe Amma to be the embodiment of divine love and grace, demonstrating miraculous powers and initiating various humanitarian projects focused on education, healthcare, and community well-being.
           </p>
         </div>
         {/* Image */}
-        <div className="flex-shrink-0 flex justify-center md:justify-end w-full md:w-1/3">
+        <div className="pt-10 flex-shrink-0 flex justify-center md:justify-end w-full md:w-1/3">
           <img
             src={photo}
             alt="Member"
-            className="h-40 w-40 sm:h-52 sm:w-52 md:h-60 md:w-60 lg:h-68 lg:w-68 rounded-full object-cover border-4 border-white shadow-lg"
+            className="h-70 w-70 sm:h-52 sm:w-52 md:h-60 md:w-60 lg:h-128 lg:w-158 rounded-full object-cover border-4 border-white shadow-lg"
           />
         </div>
       </div>
