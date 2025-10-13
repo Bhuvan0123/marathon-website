@@ -13,7 +13,7 @@ const AboutMember1 = () => {
       <motion.div
         className="hidden md:block absolute top-0 left-0 h-full w-full bg-orange-600 rounded-r-full"
         initial={{ x: "-100%" }}
-        whileInView={{ x: -150 }}
+        whileInView={{ x: -100 }}
         transition={{ duration: 1, ease: "easeOut" }}
       />
       {/* Static background for mobile */}

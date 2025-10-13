@@ -53,7 +53,7 @@ const sponsorData = [
 ];
 function Sponsers() {
   return (
-    <section id="sponsors" className="h-[40rem] rounded-md flex flex-col antialiased bg-white/0 dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <section id="sponsors" className="h-[300px] rounded-md flex flex-col antialiased bg-white/0 dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       <h1 className="text-black text-3xl font-bold">Sponsers</h1>
         <InfiniteMovingCards data={sponsorData} direction="left"
         speed="normal"/>

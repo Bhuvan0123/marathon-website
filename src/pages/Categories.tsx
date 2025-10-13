@@ -95,10 +95,9 @@ export default function Categories() {
             </h2>
             <ul className="text-lg list-disc list-inside space-y-1">
               <li>Open to men (16 yrs and above)</li>
-              <li>Distance: 5 km</li>
+              <li>Distance: 8 km</li>
               <li>Guardians for kids under 12</li>
               <li>Official bib & T-shirt required</li>
-              <li>Finish within 5 hrs</li>
             </ul>
             <p className="mt-6 text-[20px] text-red-700 text-center font-bold italic">
               Click to view prizes
@@ -138,10 +137,9 @@ export default function Categories() {
             </h2>
             <ul className="text-lg list-disc list-inside space-y-1">
               <li>Open to women & children (8-15 yrs)</li>
-              <li>Distance: 5 km</li>
+              <li>Distance: 8 km</li>
               <li>Guardians for kids under 12</li>
               <li>Official bib & T-shirt required</li>
-              <li>Finish within 5 hrs</li>
             </ul>
             <p className="mt-6 text-[20px] text-red-700 font-bold text-center italic">
               Click to view prizes

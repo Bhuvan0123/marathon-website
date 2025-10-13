@@ -54,7 +54,7 @@ const Navbar = () => {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -80, opacity: 0 }}
             transition={{ duration: 0.5 }}
-            className="hidden md:block fixed top-0 left-0 w-full bg-amber-300 shadow-md z-50"
+            className="hidden md:block fixed top-0 left-0 w-full bg-gradient-to-r from-yellow-100 via-orange-100 to-red-100 shadow-md z-50"
           >
             <div className="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
               <img

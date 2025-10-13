@@ -2,7 +2,7 @@ import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 
 function Footer(){
   return (
-    <footer className="w-full bg-yellow-400 text-black pt-4">
+    <footer className="w-full bg-amber-200 text-black pt-4">
       {/* Content wrapper */}
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h2 className="text-2xl font-bold mb-4">ALAMA ABACUS</h2>

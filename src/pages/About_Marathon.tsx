@@ -23,7 +23,7 @@ function AboutMarathon() {
           "For Life, Run Against Drugs"
         </h3>
         <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-6">
-         The Vellore Marathon, a <strong className="text-black text-2xl">5km run</strong> open to all, unites students and the community in promoting physical well-being and mindful living. Beyond fitness, it aims to raise awareness <strong className="text-black text-2xl">against drug use</strong>, encouraging participants to embrace healthy choices and a balanced lifestyle.
+         The Vellore Marathon, a <strong className="text-black text-2xl">8km run</strong> open to all, unites students and the community in promoting physical well-being and mindful living. Beyond fitness, it aims to raise awareness <strong className="text-black text-2xl">against drug use</strong>, encouraging participants to embrace healthy choices and a balanced lifestyle.
         </p>
       </div>
     </section>
