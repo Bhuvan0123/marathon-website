@@ -32,11 +32,17 @@ const MemberSection = () => {
         <div className="w-full md:w-2/3 text-center md:text-left mt-6 md:mt-0">
           <h2 className="text-2xl sm:text-5xl font-bold mb-2">Dr. M. Suresh Babu</h2>
           <h3 className="text-lg sm:text-3xl text-yellow-200 mb-4">Director & Trustee</h3>
-          <p className="text-base sm:text-2xl leading-relaxed text-justify md:text-left">
+          <p className="text-base sm:text-xl leading-relaxed text-justify md:text-left">
             Dr. M. Suresh Babu has devoted over 30 years to dedicated service, emulating the
 exemplary path of our beloved Sri Sakthi Amma. His leadership and contributions
 have made a significant and lasting impact on education, social welfare, and
 spiritual well-being.
+<br/>
+Dr. M. Suresh Babu is the Trustee and Director of Sripuram, Sri Narayani Peedam, Sri
+Sakthi Amma Educational Trust (Sri Narayani Schools), Sri Sakthi Amma Tribal
+Welfare Trust, and Sri Sakthi Amma Ancient and Holistic Health Care Trust.
+In celebration of his birthday on November 21, 2024, a grand marathon is being
+organized to honor his dedication to health, well-being, and community spirit.
           </p>
         </div>
       </div>

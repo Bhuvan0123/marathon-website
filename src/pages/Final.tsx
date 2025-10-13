@@ -24,11 +24,12 @@ const Final = () => {
       </a>
       <div className="w-full bg-yellow-100 rounded-xl px-5 py-4 mb-5 shadow-inner md:w-5/10 ">
         <p className="text-lg text-orange-700 leading-relaxed text-center">
-          Your body is your temple —  
-          <span className="font-semibold text-orange-800">
+         "  Your body is your temple —  
+          <span className="font-semibold italic text-orange-800">
             keep it pure,
             keep it strong.
           </span>{" "}
+        "
         </p>
       </div>
     </section>

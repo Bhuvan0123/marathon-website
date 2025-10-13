@@ -1,7 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import Lottie from "lottie-react";
 import type { LottieRefCurrentProps } from "lottie-react";
-import runningman from "../assets/Running_man.json"; // your lottie
+import runningman from "../assets/Running_man.json"; 
+import bus_stand from "../assets/icons/bus_stand.png"
+import school from "../assets/icons/school.png"
 
 const ScrollBar = () => {
   const lottieRef = useRef<LottieRefCurrentProps>(null);
@@ -14,7 +16,17 @@ const ScrollBar = () => {
 
   // padding from left and right (in px)
   const sidePadding = 100;
-  const runnerWidth = 80;
+  const getRunnerWidth = () => {
+    if (window.innerWidth < 768) return 40; // mobile/tablet
+    return 100; // desktop
+  };
+  const [runnerWidth, setRunnerWidth] = useState(getRunnerWidth());
+
+  useEffect(() => {
+    const handleResize = () => setRunnerWidth(getRunnerWidth());
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -103,6 +115,16 @@ const ScrollBar = () => {
       className="fixed bottom-10 left-0 w-full h-24 flex items-center z-40"
     >
       {/* Pathway line */}
+      <img
+        src={bus_stand}
+        alt="Start"
+        className="absolute left-20 h-12 w-12 md:h-20 md:w-20 z-50"
+      />
+      <img
+        src={school}
+        alt="End"
+        className="absolute right-20 h-12 w-12 md:h-20 md:w-20 z-50"
+      />
       <div
         className="absolute bottom-2 left-0 w-full h-1 bg-orange-300 border-amber-400 border-10 rounded-full"
         style={{
@@ -131,6 +153,7 @@ const ScrollBar = () => {
           animationData={runningman}
           loop={true}
           autoplay={false}
+          className="h-12 w-12 md:h-20 md:w-20"
         />
       </div>
     </div>

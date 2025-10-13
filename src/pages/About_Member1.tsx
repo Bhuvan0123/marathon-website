@@ -25,10 +25,14 @@ const AboutMember1 = () => {
       >
         {/* Text */}
   <div className="w-full md:w-2/3 text-center md:text-left mt-6 md:mt-0">
-          <h2 className="text-2xl sm:text-5xl font-bold mb-2">Sri Sakhti Amma</h2>
-          <h3 className="text-lg sm:text-2xl text-yellow-200 mb-4">Chief Organizer</h3>
-          <p className="text-base sm:text-2xl leading-relaxed text-justify md:text-left">
-            Sri Sakthi Amma is the first and only known avatara (incarnation) of the Goddess Narayani, a divine feminine energy, who declared her divinity in 1992 and established the Sri Narayani Peedam in India to serve humanity and promote peace. Followers believe Amma to be the embodiment of divine love and grace, demonstrating miraculous powers and initiating various humanitarian projects focused on education, healthcare, and community well-being.
+          <h2 className="text-2xl sm:text-5xl font-bold mb-14 text-white">Sri Sakhti Amma</h2>
+          <p className="text-base sm:text-xl leading-relaxed text-justify md:text-left">
+            Sri Sakthi Amma embodies divine grace, radiating wisdom and compassion.
+Renowned for teachings on love, compassion, and selfless service, countless
+followers have found inspiration through guidance and humanitarian efforts.
+With a focus on the importance of spiritual growth, community welfare, and
+education, numerous initiatives have been launched, including schools, healthcare
+programs, and charitable activities aimed at uplifting society.   
           </p>
         </div>
         {/* Image */}
