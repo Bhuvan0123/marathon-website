@@ -1,39 +1,44 @@
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import agarwal from "../assets/sponsors/agarwal.png"
-import otomatiks from "../assets/sponsors/otomatiks.png"
 import aaroya from "../assets/sponsors/aarogya.png"
 import sky from "../assets/sponsors/sky.png"
 import sri from "../assets/sponsors/sri.png"
-import arteg from "../assets/sponsors/arteg.png"
-import mnjewelpark from "../assets/sponsors/mnjewelpark.png"
 import pachaiyappas from "../assets/sponsors/pachaiyappas.png"
 import snhrc from "../assets/sponsors/snhrc.webp"
 import hellofm from "../assets/sponsors/hellofm.png"
 import press from "../assets/sponsors/press.png"
-import clear from "../assets/sponsors/clear.png"
 import skytv from "../assets/sponsors/skytv.png"
 import bodhi from "../assets/sponsors/bodhi.png"
-import vegan from "../assets/sponsors/vegan.png"
-import lions from "../assets/sponsors/lions.png"
+import alama from "../assets/sponsors/alama.jpg"
+import hotelnarayani from "../assets/sponsors/hotelnarayani.png"
+import roopakala from "../assets/sponsors/roopakala.jpg"
 const sponsorData = [
   {
-    logos: [agarwal, otomatiks ],
+    logos: [alama,agarwal, roopakala ],
     designation: "Title Sponsors",
   },
   {
     logos: [
-      aaroya,
-      sky,
-      sri,
-      arteg,
-      mnjewelpark,
+      hotelnarayani,
       pachaiyappas,
+      sri,
+      aaroya,
+      sky,      
     ],
     designation: "Co-Sponsors",
+  },
+  
+  {
+    logos: [bodhi],
+    designation: "Website Sponsor",
   },
   {
     logos: [snhrc],
     designation: "Healthcare Partner",
+  },
+  {
+    logos: [skytv],
+    designation: "Media Partner",
   },
   {
     logos: [hellofm],
@@ -43,22 +48,7 @@ const sponsorData = [
     logos: [press],
     designation: "Press Partner",
   },
-  {
-    logos: [clear],
-    designation: "Hydration Partner",
-  },
-  {
-    logos: [skytv],
-    designation: "Media Partner",
-  },
-  {
-    logos: [bodhi],
-    designation: "Website Partner",
-  },
-  {
-    logos: [vegan,lions],
-    designation: "Organizer",
-  },
+  
 
 ];
 function Sponsers() {

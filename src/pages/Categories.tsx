@@ -32,7 +32,7 @@ export default function Categories() {
 
       {/* Main Event Details Card */}
       <div className="flex justify-center items-center mb-16">
-        <div className="max-w-5xl w-full rounded-3xl p-0 md:p-0 shadow-2xl bg-gradient-to-br from-orange-50 via-yellow-50 to-orange-100 flex flex-col md:flex-row items-stretch border border-orange-200 overflow-hidden">
+        <div className="opacity-100 max-w-5xl w-full rounded-3xl p-0 md:p-0 shadow-2xl bg-gradient-to-br from-orange-50 via-yellow-50 to-orange-100 flex flex-col md:flex-row items-stretch border border-orange-200 overflow-hidden">
           {/* Left: Event Logo */}
           <div className="flex-shrink-0 flex items-center justify-center bg-gradient-to-b from-amber-200 to-yellow-100 md:w-1/3 w-full p-2">
             <img
@@ -52,7 +52,7 @@ export default function Categories() {
                   <span className="text-2xl">📅</span>
                   <span className="font-semibold">Date:</span>
                 </div>
-                <span className="text-orange-700 ml-7 md:ml-1">{/* indent for mobile */}21th December 2025</span>
+                <span className="text-orange-700 ml-7 md:ml-1">{/* indent for mobile */}21 December 2025</span>
               </li>
               <li className="flex flex-col md:flex-row md:items-center gap-1 md:gap-2">
                 <div className="flex justify-center items-center gap-2">
@@ -67,7 +67,7 @@ export default function Categories() {
                   <span className="font-semibold">Location:</span>
                 </div>
                 <span className="text-orange-700 ml-7 md:ml-1">
-                  Vellore Old Bus Stand to Sri Narayani Schools
+                  Vellore Old Bus Stand <span className="font-bold">to</span> Sri Narayani Schools
                 </span>
               </li>
             </ul>
@@ -100,7 +100,7 @@ export default function Categories() {
               <li>Official bib & T-shirt required</li>
               <li>Finish within 5 hrs</li>
             </ul>
-            <p className="mt-6 text-sm text-orange-700 text-center italic">
+            <p className="mt-6 text-[20px] text-red-700 text-center font-bold italic">
               Click to view prizes
             </p>
           </PopoverTrigger>
@@ -143,7 +143,7 @@ export default function Categories() {
               <li>Official bib & T-shirt required</li>
               <li>Finish within 5 hrs</li>
             </ul>
-            <p className="mt-6 text-sm text-orange-700 text-center italic">
+            <p className="mt-6 text-[20px] text-red-700 font-bold text-center italic">
               Click to view prizes
             </p>
           </PopoverTrigger>

@@ -1,7 +1,7 @@
 import './App.css'
 import Final from './pages/Final'
 import ScrollBar from './pages/ScrollBar'
-import Sponsers from './pages/Sponsers'
+import Sponsers from './pages/Sponsors'
 import Navbar from './pages/Navbar'
 import Footer from './pages/Footer'
 import AboutMember1 from './pages/About_Member1'
