@@ -24,25 +24,22 @@ const MemberSection = () => {
           <img
             src={photo}
             alt="Member"
-            className="h-40 w-40 sm:h-52 sm:w-52 md:h-60 md:w-60 lg:h-78 lg:w-58 rounded-full object-cover border-4 border-white shadow-lg"
+            className="h-50 w-40 mt-10 sm:h-52 sm:w-52 md:h-60 md:w-60 lg:h-78 lg:w-58 rounded-full object-cover border-4 border-white shadow-lg md:mt-0"
           />
         </div>
 
         {/* Text */}
-        <div className="w-full md:w-2/3 text-center md:text-left mt-6 md:mt-0">
+        <div className="w-full md:w-2/3 text-center md:text-left md:mt-0">
           <h2 className="text-2xl sm:text-5xl font-bold mb-2">Dr. M. Suresh Babu</h2>
           <h3 className="text-lg sm:text-3xl text-yellow-200 mb-4">Director & Trustee</h3>
-          <p className="text-base sm:text-xl leading-relaxed text-justify md:text-left">
-            Dr. M. Suresh Babu has devoted over 30 years to dedicated service, emulating the
-exemplary path of our beloved Sri Sakthi Amma. His leadership and contributions
-have made a significant and lasting impact on education, social welfare, and
-spiritual well-being.
+          <p className="text-base mb-5 sm:text-[16px]  leading-relaxed text-justify md:text-left md:mb-0">
+            Dr. M. Suresh Babu has devoted over three decades of his life to the divine mission of service, walking in the footsteps of our beloved Sri Sakthi Amma. His journey of more than 30 years alongside Amma reflects unwavering faith, humility, and a deep commitment to uplifting humanity through education, social welfare, and spiritual enlightenment.
 <br/>
-Dr. M. Suresh Babu is the Trustee and Director of Sripuram, Sri Narayani Peedam, Sri
-Sakthi Amma Educational Trust (Sri Narayani Schools), Sri Sakthi Amma Tribal
-Welfare Trust, and Sri Sakthi Amma Ancient and Holistic Health Care Trust.
-In celebration of his birthday on November 21, 2024, a grand marathon is being
-organized to honor his dedication to health, well-being, and community spirit.
+As a Trustee and Director of Sripuram, Sri Narayani Peedam, Sri Sakthi Amma Educational Trust (Sri Narayani Schools), Sri Sakthi Amma Tribal Welfare Trust, and Sri Sakthi Amma Ancient and Holistic Health Care Trust, Dr. M. Suresh Babu has played a pivotal role in realizing Amma’s vision of a compassionate and empowered society.
+<br/>
+Through his dynamic leadership, several transformative initiatives have been launched — providing quality education to rural children, healthcare for the underprivileged, and spiritual guidance that nurtures values and harmony in society.
+<br/>
+In celebration of the 50th Jayanthi of Sri Sakthi Amma, this noble cause has been initiated by Dr. M. Suresh Babu as a heartfelt tribute to Amma’s divine mission — reaffirming the path of love, service, and spiritual awakening that continues to inspire thousands across the world.
           </p>
         </div>
       </div>

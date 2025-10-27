@@ -25,14 +25,9 @@ const AboutMember1 = () => {
       >
         {/* Text */}
   <div className="w-full md:w-2/3 text-center md:text-left mt-6 md:mt-0">
-          <h2 className="text-2xl sm:text-5xl font-bold mb-14 text-white">Sri Sakhti Amma</h2>
-          <p className="text-base sm:text-xl leading-relaxed text-justify md:text-left">
-            Sri Sakthi Amma embodies divine grace, radiating wisdom and compassion.
-Renowned for teachings on love, compassion, and selfless service, countless
-followers have found inspiration through guidance and humanitarian efforts.
-With a focus on the importance of spiritual growth, community welfare, and
-education, numerous initiatives have been launched, including schools, healthcare
-programs, and charitable activities aimed at uplifting society.   
+          <h2 className="text-2xl sm:text-5xl font-bold mb-10 text-white ">Sri Sakhti Amma</h2>
+          <p className="text-base mb-5 sm:text-xl leading-relaxed text-justify md:text-left md:mb-0">
+            Sri Sakthi Amma embodies divine grace and unconditional love, radiating wisdom, peace, and compassion to all. Renowned for the profound teachings on love, selfless service, and spiritual awakening, Sri Sakthi Amma’s guidance has inspired countless devotees worldwide. With a deep commitment to the upliftment of humanity, Amma has established numerous initiatives focusing on education, healthcare, environmental preservation, and community welfare. These humanitarian endeavors continue to transform lives, nurturing both material well-being and spiritual growth.
           </p>
         </div>
         {/* Image */}

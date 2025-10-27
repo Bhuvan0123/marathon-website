@@ -94,13 +94,13 @@ export default function Categories() {
       <div className="flex flex-wrap justify-center gap-10 mb-16">
         {/* Men Category Popover */}
         <PopoverRoot>
-          <PopoverTrigger className="w-60 md:w-106  h-auto p-10 justify-center items-center rounded-2xl shadow-lg bg-orange-100 text-orange-900 hover:bg-yellow-200 ">
+          <PopoverTrigger className="w-60 md:w-110  h-auto p-8 justify-center items-center rounded-2xl shadow-lg bg-orange-100 text-orange-900 hover:bg-yellow-200 ">
             <h2 className="text-3xl left-6 font-bold text-center mb-3">
               Men Category
             </h2>
             <ul className="text-lg list-disc list-inside space-y-1">
+              <li>Official Chest Number & T-shirt will be given</li>
               <li>Open to men (16 yrs and above)</li>
-              <li>Official bib & T-shirt required</li>
               <li>Distance: 8 km</li>
             </ul>
             <p className="mt-6 text-[20px] text-red-700 text-center font-bold italic">
@@ -135,13 +135,13 @@ export default function Categories() {
 
         {/* Women & Children Popover */}
         <PopoverRoot>
-          <PopoverTrigger className="w-60 md:w-100 h-auto p-6 justify-center items-center rounded-2xl shadow-lg bg-orange-100 text-orange-900 hover:bg-yellow-200 ">
+          <PopoverTrigger className="w-60 md:w-110 h-auto p-6 justify-center items-center rounded-2xl shadow-lg bg-orange-100 text-orange-900 hover:bg-yellow-200 ">
             <h2 className="text-3xl font-bold text-center mb-3">
               Women & Children
             </h2>
             <ul className="text-lg list-disc list-inside space-y-1">
+              <li>Official Chest Number & T-shirt will be given</li>
               <li>Open to women & children (8-15 yrs)</li>
-              <li>Official bib & T-shirt required</li>
               <li>Guardians for kids under 12</li>
               <li>Distance: 8 km</li>
             </ul>
