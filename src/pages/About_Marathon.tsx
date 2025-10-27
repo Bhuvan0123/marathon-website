@@ -16,14 +16,14 @@ function AboutMarathon() {
         />
       </div>
       <div className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left">
-        <p className="text-lg md:text-xl text-gray-800 mb-6 italic">Celebrating the 50th Jayanthi of our Beloved Sri Sakthi Amma</p>
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white">
+        <p className="text-2xl md:text-3xl text-gray-800 mb-6 italic font-bold">Celebrating the 50th Jayanthi of our Beloved Sri Sakthi Amma</p>
+        <h2 className="text-2xl md:text-3xl font-bold mb-4 text-red-600">
           Vellore Marathon 2025
         </h2>
         <h3 className="text-xl md:text-2xl font-semibold mb-4 text-black">
           "Run For Life, Run Against Drugs"
         </h3>
-        <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-6">
+        <p className="text-lg md:text-xl text-gray-700 mb-6">
          The Vellore Marathon, a <strong className="text-black text-2xl">8km run</strong> open to all, unites students and the community in promoting physical well-being and mindful living. Beyond fitness, it aims to raise awareness <strong className="text-black text-2xl">against drug use</strong>, encouraging participants to embrace healthy choices and a balanced lifestyle.
         </p>
       </div>
