@@ -5,7 +5,7 @@ export default function HeroZoom() {
   const { scrollYProgress } = useScroll();
 
   // Zoom effect: scale text from 1x to 50x
-  const scale = useTransform(scrollYProgress, [0, 0.1], [1, 20]);
+  const scale = useTransform(scrollYProgress, [0, 0.1], [1, 15]);
 
   // Fade out overlay after zoom
   const opacity = useTransform(scrollYProgress, [0.08, 0.15], [1, 0]);
@@ -16,7 +16,7 @@ export default function HeroZoom() {
       className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black pointer-events-none overflow-hidden"
     >
       <motion.h1
-        style={{ scale ,transformOrigin: '60% center'}}
+        style={{ scale ,transformOrigin: '57% center'}}
         className="text-[20vw] font-extrabold leading-none text-amber-100 "
       >
       RUN
