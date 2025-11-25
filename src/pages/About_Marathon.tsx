@@ -4,7 +4,7 @@ function AboutMarathon() {
   return (
     <section
       id="about"
-      className="flex flex-col md:flex-row items-center justify-center  gap-8 py-12 px-4 md:px-16 bg-amber-300 rounded-lg mb-10"
+      className="flex flex-col md:flex-row items-center justify-center  gap-8 py-12 px-4 md:px-16 bg-orange-300 rounded-lg mb-10"
     >
       <div className="w-full md:w-1/2 flex justify-center">
         <HeroVideoDialog
@@ -16,16 +16,14 @@ function AboutMarathon() {
         />
       </div>
       <div className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left">
-        <p className="text-2xl md:text-3xl text-gray-800 mb-6 italic font-bold">Celebrating the 50th Jayanthi of our Beloved Sri Sakthi Amma</p>
-        <h2 className="text-2xl md:text-3xl font-bold mb-4 text-red-600">
-          Vellore Marathon 2025
-        </h2>
-        <h3 className="text-xl md:text-2xl font-semibold mb-4 text-black">
-          "Run For Life, Run Against Drugs"
-        </h3>
-        <p className="text-lg md:text-xl text-gray-700 mb-6">
-         The Vellore Marathon, a <strong className="text-black text-2xl">8km run</strong> open to all, unites students and the community in promoting physical well-being and mindful living. Beyond fitness, it aims to raise awareness <strong className="text-black text-2xl">against drug use</strong>, encouraging participants to embrace healthy choices and a balanced lifestyle.
+        <p className="text-2xl md:text-3xl text-gray-800 mb-6 italic font-bold">
+          Highlights from the Previous Year Marathon - 2024
         </p>
+       
+        <p className="text-lg md:text-xl text-gray-700 mb-4">
+          The video above showcases highlights from last year's Vellore Marathon. It captures the route, participant experience, community turnout, and our awareness efforts against drug use.
+        </p>
+       
       </div>
     </section>
     // <div className="relative ">

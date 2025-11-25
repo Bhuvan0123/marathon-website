@@ -10,6 +10,7 @@ import { SparklesCore } from './components/ui/sparkles'
 import HeroZoom from './pages/Landing'
 import Categories from './pages/Categories'
 import AboutMarathon from './pages/About_Marathon'
+import Banner from './pages/Banner'
 function Home() {
   return (
     <div className="font-sans">
@@ -30,8 +31,8 @@ function Home() {
         <div className="h-[100vh] " />
         
           <Navbar/>
+          <Banner/>
           <AboutMarathon/>
-          
           <AboutMember1/>
           <AboutMember2/>
           <Categories/>

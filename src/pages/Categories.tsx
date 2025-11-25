@@ -53,7 +53,7 @@ export default function Categories() {
                   <span className="font-semibold">Date:</span>
                 </div>
                 <span className="text-orange-700 ml-7 md:ml-1">
-                  {/* indent for mobile */}21 December 2025
+                  {/* indent for mobile */}21 December 2025, Sunday
                 </span>
               </li>
               <li className="flex flex-col md:flex-row md:items-center gap-1 md:gap-2">

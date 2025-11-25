@@ -15,7 +15,7 @@ const Final = () => {
       </div>
       <CountdownWithProgress />
       <a
-        href="https://forms.gle/to-be-announced"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdtGB8ABYkyF__jVj2HlTHGQCqWy8yzCuw_DY7o16Kg6EIPCg/viewform?usp=header"
         target="_blank"
         rel="noopener noreferrer"
         className="px-6 mb-10 py-3 rounded-lg bg-gradient-to-r from-orange-500 to-red-500 text-white font-semibold shadow-lg transition-transform duration-300 hover:scale-125 hover:shadow-xl focus:outline-none z-30 flex items-center justify-center "

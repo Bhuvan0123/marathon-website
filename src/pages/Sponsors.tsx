@@ -1,17 +1,16 @@
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import agarwal from "../assets/sponsors/agarwal.png"
 import aaroya from "../assets/sponsors/aarogya.png"
-import sky from "../assets/sponsors/sky.png"
 import sri from "../assets/sponsors/sri.png"
-import pachaiyappas from "../assets/sponsors/pachaiyappas.png"
 import snhrc from "../assets/sponsors/snhrc.webp"
 import hellofm from "../assets/sponsors/hellofm.png"
 import press from "../assets/sponsors/press.png"
-import skytv from "../assets/sponsors/skytv.png"
 import bodhi from "../assets/sponsors/bodhi.png"
 import alama from "../assets/sponsors/alama.jpg"
 import hotelnarayani from "../assets/sponsors/hotelnarayani.png"
 import roopakala from "../assets/sponsors/roopakala.jpg"
+import raccks from "../assets/sponsors/raccks.png"
+import pp from "../assets/sponsors/pp.png"
 const sponsorData = [
   {
     logos: [alama,agarwal, roopakala ],
@@ -20,10 +19,8 @@ const sponsorData = [
   {
     logos: [
       hotelnarayani,
-      pachaiyappas,
       sri,
       aaroya,
-      sky,      
     ],
     designation: "Co-Sponsors",
   },
@@ -37,7 +34,7 @@ const sponsorData = [
     designation: "Healthcare Partner",
   },
   {
-    logos: [skytv],
+    logos: [pp],
     designation: "Media Partner",
   },
   {
@@ -48,7 +45,13 @@ const sponsorData = [
     logos: [press],
     designation: "Press Partner",
   },
-  
+  {
+    logos: [
+      alama,
+      raccks,
+    ],
+    designation: "Organizers",
+  },
 
 ];
 function Sponsers() {
